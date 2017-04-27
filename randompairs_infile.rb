@@ -2,13 +2,14 @@
 # credit help from Sheri Dyson
 
 def randomizepairs()
+
 	names_array = []
 	
 	File.foreach( 'students.txt' ) do |line|
 		names_array.push line.chomp
 	end
 
-	shuffled = names_array.shuffle
+	shuffled = names_array.shuffle  # shuffle array
 	
 	rand_pair = rand(0..(names_array.length / 2 - 1))
 	pairs = []

@@ -33,4 +33,4 @@ end
 
 paired_array = random_pair()
 
-puts paired_array.inspect
+puts paired_array.inspect # create a printable version of array

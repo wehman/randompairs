@@ -35,7 +35,6 @@ def random_pairs()
 
 end
 
-
 # display results on screen
 
 pair_ups = random_pairs()

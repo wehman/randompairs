@@ -14,7 +14,7 @@ class TestRandomPairs < Minitest::Test
 
 		results = random_pairs()
 
-		assert_equal(10,results.count)
+		assert_equal(10,results.count) # number of pairs
 
 	end
 
